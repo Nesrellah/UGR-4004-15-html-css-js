@@ -2,83 +2,42 @@
 <html lang="en">
     <head>
         <title>About me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/aboutmecss.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
         <header>
-            <h1>Nasri</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contactme.html">Contact ME</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+            <nav class="nav">
+                <div class="logo">Nas<span>ri</span></div>
+                <div class="hamburger">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a class="thelinks" href="index.html">Home</a></li>
+                    <li><a class="thelinks main-links" href="aboutme.html">About Me</a></li>
+                    <li><a class="thelinks" href="skills.html">Skills</a></li>
+                    <li><a class="thelinks" href="contactme.html">Contact ME</a></li>
+                    <li><a class="thelinks" href="projects.html">Projects</a></li>
                 </ul>
             </nav>
         </header>
-        <img src="images/aboutpic.png" alt="my pic">
-        <div>
-            <h1>About me</h1>
-            <p>Hello! I’m Nesrellah Adem, a third-year software engineer with a passion for developing innovative, user-centric solutions that solve real-world problems. Currently, I’m focused on building a solid foundation in like front-end development, some back-end development, with hands-on experience in technologies like Java, python, Html , css , SQL, Javascript ,Figma.</p>
-        </div>
-        <div>
-            <h1>Interest and hobby</h1>
-            <p>Beyond coding, I have a passion for gaming and the adventure of mastering new skills. Whether it’s exploring virtual worlds or leveling up in real life, I love immersing myself in new challenges and pushing my limits. This curiosity naturally extends to web development, where I’m captivated by the endless possibilities to create, innovate, and solve problems. When I’m not in front of a screen, I enjoy outdoor adventures that keep me moving and inspired, always ready for the next opportunity to learn and explore.</p>
-            <audio controls>
-                <source src="audio/aboutme.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-                    
-        </div>
-
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contactme.html">Contact ME</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-                <button>Download CV</button>
+        <main>
+            <div class="about-col-1">
+                <img src="images/aboutpic.png" alt="my pic">
             </div>
-            <div>
-                <h2>Social platforms</h2>
-                <figure>
-                    <a href="https://instagram.com/thenasrijr" target="_blank">
-                        <img src="images/instaicon.png" alt="instagram">
-                    </a>
-                    <a href="https://t.me/thenasrijr" target="_blank"> 
-                        <img src="images/telegramicon.png" alt="telegram">
-                    </a>
-                    <a href="https://x.com/nasritheiv" target="_blank">
-                        <img src="images/xicon.png" alt="x">
-                    </a>
-                    <a href="https://linkden.com/thenasrijr" target="_blank">
-                        <img src="images/linkdenicon.png" alt="linkden">
-                    </a>
-                    <a href="https://facebook.com/thenasrijr">
-                        <img src="images/facebookicon.png" alt="facebook">
-                    </a>
-                    <a href="https://github.com/Nesrellah">
-                        <img src="images/githubicon.png" alt="github">
-                    </a>
-                </figure>
+            <div class="about-col-2">
+                <h1 class="main_header">About me</h1>
+                <p class="main_paragraph">Hello! I’m Nesrellah Adem, a third-year software engineer with a passion for developing innovative, user-centric solutions that solve real-world problems. Currently, I’m focused on building a solid foundation in like front-end development, some back-end development, with hands-on experience in technologies like Java, python, Html , css , SQL, Javascript ,Figma.</p>
             </div>
-            <div>
-                <h2>contact info</h2>
-                <figure>
-                    <a href="tel:+251902468704">
-                        <img src="images/phoneicon.png" alt="phone">
-                    </a>
-                    <a href="https://email.com/neseadem211@gmail.com" target="_blank">
-                        <img src="images/emailicon.png" alt="email">
-                    </a>
-                    <a href="https://www.google.com/maps?q=Addis+Ababa,+Akaki" target="_blank">
-                        <img src="images/locationicon.png" alt="location">
-                    </a>
-                </figure>
+            <div class="about-col-3">
+                <h1 class="main_header">Interest and hobby</h1>
+                <p class="main_paragraph">Beyond coding, I have a passion for gaming and the adventure of mastering new skills. Whether it’s exploring virtual worlds or leveling up in real life, I love immersing myself in new challenges and pushing my limits. This curiosity naturally extends to web development, where I’m captivated by the endless possibilities to create, innovate, and solve problems. When I’m not in front of a screen, I enjoy outdoor adventures that keep me moving and inspired, always ready for the next opportunity to learn and explore.</p>
+                <audio controls>
+                    <source src="audio/aboutme.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>      
             </div>
-        </footer>
+        </main>
+        <script src="javascript/script.js"></script>
     </body>
 </html>

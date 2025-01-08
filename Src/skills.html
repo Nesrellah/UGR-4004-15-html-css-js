@@ -2,101 +2,72 @@
 <html lang="en">
     <head>
         <title>Skills</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/skillscss.css">
     </head>
     <body>
         <header>
-            <h1>Nasri</h1>
-            <nav>  
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contactme.html">Contact ME</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+            <nav class="nav">
+                <div class="logo">Nas<span>ri</span></div>
+                <div class="hamburger">&#9776;</div>
+                <ul class="nav-links">
+                    <li><a class="thelinks" href="index.html">Home</a></li>
+                    <li><a class="thelinks" href="aboutme.html">About Me</a></li>
+                    <li><a class="thelinks main-links" href="skills.html">Skills</a></li>
+                    <li><a class="thelinks" href="contactme.html">Contact ME</a></li>
+                    <li><a class="thelinks" href="projects.html">Projects</a></li>
                 </ul>
             </nav>
         </header>
-        <h1>My skills</h1>
+        <main>
+            <div class="skills-col-1">
+                <h1 class="main-heading">My skills</h1>
+                    <div class="container">
+                        <div class="cols col1">
+                            <h2>Html</h2>
+                            <h6>Intermediate</h6>
+                        </div>
+                        <div class="cols col2">
+                            <h2>CSS</h2>
+                            <h6>Intermediate</h6>
+                        </div>
+                        <div class="cols">
+                            <h2>Javascript</h2>
+                            <h6>Beginner</h6>
+                        </div>
+                        <div class="cols">
+                            <h2>Java</h2>
+                            <h6>Intermediate</h6>
+                        </div>
+                        <div class="cols col3">
+                            <h2>Photoshop</h2>
+                            <h6>Beginner</h6>
+                        </div>
+                        <div class="cols col4">
+                            <h2>Illustrator</h2>
+                            <h6>Intermediate</h6>
+                        </div>
+                    </div>
+            </div>
+            <div class="skills-col-2">
                 <div>
-                    <div>
-                        <h1>Html</h1>
-                        <h6>Intermediate</h6>
+                    <h1 class="main-heading">Certificates</h1>
+                    <div class="certificate-container">
+                        <div class="certificate-div">
+                            <img class="certificate-img" src="images/Certificate1.png" alt="web dev certificate">
+                        </div>
+                        <div class="certificate-div">
+                            <img class="certificate-img" src="images/Certificate1.png" alt="web dev certificate">
+                        </div>
                     </div>
-                    <div>
-                        <h1>CSS</h1>
-                        <h6>Intermediate</h6>
-                    </div>
-                    <div>
-                        <h1>Javascript</h1>
-                        <h6>Beginner</h6>
-                    </div>
-                    <div>
-                        <h1>Java</h1>
-                        <h6>Intermediate</h6>
-                    </div>
-                    <div>
-                        <h1>Photoshop</h1>
-                        <h6>Beginner</h6>
-                    </div>
-                    <div>
-                        <h1>Illustrator</h1>
-                        <h6>Intermediate</h6>
-                    </div>
-                </div>
-                <div>
-                    <h1>Certificates</h1>
-                    <img src="images/Certificate1.png" alt="web dev certificate">
-                    <button>Download CV</button>
-        </div>
-
-        <footer>
-            <div>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="contactme.html">Contact ME</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                </ul>
-                <button>Download CV</button>
-            </div>
-            <div>
-                <h2>Social platforms</h2>
-                <figure>
-                    <a href="https://instagram.com/thenasrijr" target="_blank">
-                        <img src="images/instaicon.png" alt="instagram">
-                    </a>
-                    <a href="https://t.me/thenasrijr" target="_blank"> 
-                        <img src="images/telegramicon.png" alt="telegram">
-                    </a>
-                    <a href="https://x.com/nasritheiv" target="_blank">
-                        <img src="images/xicon.png" alt="x">
-                    </a>
-                    <a href="https://linkden.com/thenasrijr" target="_blank">
-                        <img src="images/linkdenicon.png" alt="linkden">
-                    </a>
-                    <a href="https://facebook.com/thenasrijr">
-                        <img src="images/facebookicon.png" alt="facebook">
-                    </a>
-                    <a href="https://github.com/Nesrellah">
-                        <img src="images/githubicon.png" alt="github">
-                    </a>
-                </figure>
-            </div>
-            <div>
-                <h2>contact info</h2>
-                <figure>
-                    <a href="tel:+251902468704">
-                        <img src="images/phoneicon.png" alt="phone">
-                    </a>
-                    <a href="https://email.com/neseadem211@gmail.com" target="_blank">
-                        <img src="images/emailicon.png" alt="email">
-                    </a>
-                    <a href="https://www.google.com/maps?q=Addis+Ababa,+Akaki" target="_blank">
-                        <img src="images/locationicon.png" alt="location">
-                    </a>
-                </figure>
-            </div>
-        </footer>
+                    <div class="btn-div">
+                        <button class="btn">Download CV</button>
+                    </div> 
+                </div> 
+            </div>    
+        </main>
+        <script src="javascript/script.js"></script>
     </body>
 </html>
